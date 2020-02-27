@@ -16,7 +16,7 @@ Next install the package dependencies by running
  - yarn  install or npm install
 ```
 
-After that start or build the application by running
+Start or build the application by running
 
 ```bash
  - yarn start:dev or npm run start:dev # For a local development 
