@@ -1,5 +1,5 @@
 {
-  "name": "startmatchergame",
+  "name": "startgame",
   "version": "1.0.0",
   "description": "A simple start matching game built with React",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrkingz/StarMatcherGame.git"
+    "url": "git+https://github.com/mrkingz/StarGame.git"
   },
   "author": "Kingsley Frank-Demesi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrkingz/StarMatcherGame/issues"
+    "url": "https://github.com/mrkingz/StarGame/issues"
   },
-  "homepage": "https://github.com/mrkingz/StarMatcherGame#readme",
+  "homepage": "https://github.com/mrkingz/StarGame#readme",
   "dependencies": {
     "@babel/node": "7.8.4",
     "@fortawesome/fontawesome-svg-core": "1.2.27",
