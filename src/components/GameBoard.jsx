@@ -41,8 +41,9 @@ const GameBoard = () => {
 
   return (
     <div className="container container-top">
+
       <div className="row">
-        <div className="col-lg-4 col-md-8 col-sm -12 mx-auto">
+        <div className="col-12 col-lg-4 mx-auto">
           <div className="rounded border border-info text-center pt-4 pb-2">
             <StarBoard
               result={result}
