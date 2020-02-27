@@ -1,0 +1,75 @@
+{
+  "name": "startmatchergame",
+  "version": "1.0.0",
+  "description": "A simple start matching game built with React",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist &&  webpack --env.mode production",
+    "start:dev": "webpack-dev-server --env.mode development",
+    "server": "babel-node server --exec",
+    "lint": "eslint '**/*.{js,jsx}'",
+    "lint:fix": "eslint '**/*.{js,jsx}' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkingz/StarMatcherGame.git"
+  },
+  "author": "Kingsley Frank-Demesi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkingz/StarMatcherGame/issues"
+  },
+  "homepage": "https://github.com/mrkingz/StarMatcherGame#readme",
+  "dependencies": {
+    "@babel/node": "7.8.4",
+    "@fortawesome/fontawesome-svg-core": "1.2.27",
+    "@fortawesome/free-solid-svg-icons": "5.12.1",
+    "@fortawesome/react-fontawesome": "0.1.8",
+    "bootstrap": "4.4.1",
+    "classnames": "2.2.6",
+    "css-loader": "3.4.2",
+    "express": "4.17.1",
+    "html-webpack-plugin": "3.2.0",
+    "jquery": "3.4.1",
+    "popper.js": "1.16.1",
+    "react": "16.12.0",
+    "react-animated-css": "1.2.1",
+    "react-dom": "16.12.0",
+    "react-html-parser": "2.0.2",
+    "style-loader": "1.1.3",
+    "terser-webpack-plugin": "2.3.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.8.4",
+    "@babel/preset-env": "7.8.4",
+    "@babel/preset-react": "7.8.3",
+    "babel-loader": "8.0.6",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.18.3",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.7",
+    "mini-css-extract-plugin": "0.9.0",
+    "nodemon": "2.0.2",
+    "webpack": "4.41.6",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3",
+    "webpack-merge": "4.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test"
+    }
+  },
+  "lint-staged": {
+    "*.{js, jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}

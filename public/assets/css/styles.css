@@ -1,0 +1,27 @@
+.color {
+    color: green;
+}
+
+.play-btn {
+    width: 27%;
+}
+
+.container-top {
+    margin-top: 80px;
+}
+
+.star-board {
+    min-height: 240px;
+}
+
+.control-btn {
+    width: 42%;
+}
+
+.control-btn + .control-btn {
+    margin-left: 10px;
+}
+
+small {
+    color: black;
+}
