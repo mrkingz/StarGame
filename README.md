@@ -1,6 +1,8 @@
 # StarGame
 A simple start matching game built with React
 
+link: https://starmatcher.herokuapp.com/
+
 ## Getting Started
 Start by cloning the repository to your local machine
 
